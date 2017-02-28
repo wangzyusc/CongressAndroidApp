@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/detail_leg_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"/>
+            <ImageView
+                android:id="@+id/detail_leg_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/detail_leg_favorite"
+                android:padding="10dp"/>
+            <ImageView
+                android:id="@+id/detail_leg_flicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/detail_leg_facebook"
+                android:padding="10dp"/>
+            <ImageView
+                android:id="@+id/detail_leg_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/detail_leg_flicker"
+                android:padding="10dp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/detail_leg_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/detail_leg_partylogo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/detail_leg_partytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="5dp"/>
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_name"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_name"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_email"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_email"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_chamber"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_chamber"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_contact"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_contact"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_start"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_start"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_end"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_end"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_term"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_term"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_office"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_office"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_state"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_state"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_fax"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_fax"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_birthday"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_birthday"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_facebook"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_facebook"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_twitter"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_twitter"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/leg_table_website"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView />
+                <TextView
+                    android:id="@+id/detail_leg_table_website"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/detail_leg_th"
+            android:layout_width="200dp"
+            android:layout_height="match_parent">
+        </ListView>
+        <ListView
+            android:id="@+id/detail_leg_td"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>-->
+</ScrollView>

@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Homework 9</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="legislator">This fragment is for Legislators.</string>
+    <string name="bill">This fragment is for Bills.</string>
+    <string name="committee">This fragment is for Committees.</string>
+    <string name="favorites">This fragment is for Favorites.</string>
+    <string name="leg_by_state">This tab is leg by state.</string>
+    <string name="leg_by_house">This tab is leg by house.</string>
+    <string name="leg_by_senate">This tab is leg by senate.</string>
+    <string-array name="congress_types">
+        <item>Legislators</item>
+        <item>Bills</item>
+        <item>Committees</item>
+        <item>Favorites</item>
+        <item>About Me</item>
+    </string-array>
+    <array name="leg_tab_titles">
+        <item>BY STATE</item>
+        <item>HOUSE</item>
+        <item>SENATE</item>
+    </array>
+    <array name="bill_tab_titles">
+        <item>ACTIVE BILLS</item>
+        <item>NEW BILLS</item>
+    </array>
+    <array name="com_tab_titles">
+        <item>HOUSE</item>
+        <item>SENATE</item>
+        <item>JOINT</item>
+    </array>
+    <array name="fav_tab_titles">
+        <item>LEGISLATORS</item>
+        <item>BILLS</item>
+        <item>COMMITTEES</item>
+    </array>
+    <array name="leg_detail_title">
+        <item>Name:</item>
+        <item>Email:</item>
+        <item>Chamber:</item>
+        <item>Contact:</item>
+        <item>Start Term:</item>
+        <item>End Term:</item>
+        <item>Term:</item>
+        <item>Office:</item>
+        <item>State:</item>
+        <item>Fax:</item>
+        <item>Birthday:</item>
+    </array>
+    <string name="leg_table_name">Name:</string>
+    <string name="leg_table_email">Email:</string>
+    <string name="leg_table_chamber">Chamber:</string>
+    <string name="leg_table_contact">Contact:</string>
+    <string name="leg_table_start">Start Term:</string>
+    <string name="leg_table_end">End Term:</string>
+    <string name="leg_table_term">Term:</string>
+    <string name="leg_table_office">Office:</string>
+    <string name="leg_table_state">State:</string>
+    <string name="leg_table_fax">Fax:</string>
+    <string name="leg_table_birthday">Birthday:</string>
+    <string name="leg_table_facebook">Facebook:</string>
+    <string name="leg_table_twitter">Twitter:</string>
+    <string name="leg_table_website">Website:</string>
+    <string name="bill_table_id">Bill ID:</string>
+    <string name="bill_table_title">Title:</string>
+    <string name="bill_table_type">Bill Type:</string>
+    <string name="bill_table_sponsor">Sponsor:</string>
+    <string name="bill_table_chamber">Chamber:</string>
+    <string name="bill_table_status">Status:</string>
+    <string name="bill_table_date">Introduced On:</string>
+    <string name="bill_table_congressurl">Congress URL:</string>
+    <string name="bill_table_version">Version Status:</string>
+    <string name="bill_table_billurl">Bill URL:</string>
+    <string name="com_table_id">Committee ID:</string>
+    <string name="com_table_name">Name:</string>
+    <string name="com_table_chamber">Chamber:</string>
+    <string name="com_table_parent">Parent Committee:</string>
+    <string name="com_table_contact">Contact:</string>
+    <string name="com_table_office">Office:</string>
+</resources>

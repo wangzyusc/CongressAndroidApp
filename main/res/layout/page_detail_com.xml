@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+            <ImageView
+                android:id="@+id/detail_com_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:padding="5dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/com_table_id"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView
+                    android:id="@+id/detail_com_table_id"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+            <TableRow android:padding="5dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/com_table_name"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView
+                    android:id="@+id/detail_com_table_name"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+            <TableRow android:padding="5dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/com_table_chamber"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView
+                    android:id="@+id/detail_com_table_chamber"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+            <TableRow android:padding="5dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/com_table_parent"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView
+                    android:id="@+id/detail_com_table_parent"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+            <TableRow android:padding="5dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/com_table_contact"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView
+                    android:id="@+id/detail_com_table_contact"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+            <TableRow android:padding="5dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:textStyle="bold"
+                    android:text="@string/com_table_office"
+                    android:textSize="18dp"
+                    android:textColor="@color/Black"
+                    android:gravity="left"
+                    android:padding="3dp"/>
+                <TextView
+                    android:id="@+id/detail_com_table_office"
+                    android:layout_weight="1"
+                    android:textSize="18dp"
+                    android:gravity="right"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
